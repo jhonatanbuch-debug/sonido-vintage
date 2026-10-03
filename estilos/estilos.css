@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Encabezado */
+section#superior {
+    background: #330505;
+    height: 465px;
+}
+header#cabecera {
+    display: block;
+    margin: auto;
+    width: 940px;
+    height: 98px;
+}
+#cabecera ul {
+    float: right;
+    list-style: none;
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    height: 65px;
+    width: 175px;
+}
+#cabecera ul li {
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 45px;
+    width: 45px;
+}
+div#logo {
+    float: left;
+    height: 50px;
+    margin-top: 25px;
+    width: 188px;
+}
+/* Menu de Navegación */
+nav { 
+    background: #FFA30D;
+    display: block;
+    height: 45px;
+    margin: auto;
+    padding: 0;
+}
+nav ul {
+    display: block;
+    float: left;
+    list-style: none;
+}
+nav li {
+    float: left;
+}
+nav a {
+    color: #FFF;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    height: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover, a:focus {
+    background: #d4b31e;
+    color: #000;
+}
+#slider {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    height: 295px;
+    width: 940px;
+}
+/* Contenedor Principal */
+section#contenedor {
+    background: #CACAD9;
+    display: block;
+    margin: auto;
+    width: 940px;
+    overflow: hidden; /* Obliga al contenedor a encerrar los elementos flotantes */
+    padding-top: 10px; /* Margen superior interno limpio para que nada choque arriba */
+}
+section#contenedorinterior {
+    background: #CACAD9;
+    background: -moz-linear-gradient(top, #d7d7e2 24%, #cacad9 53%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(24%, #d7d7e2), color-stop(53%, #cacad9));
+    background: -webkit-linear-gradient(top, #d7d7e2 24%, #cacad9 53%);
+    background: -o-linear-gradient(top, #d7d7e2 24%, #cacad9 53%);
+    background: -ms-linear-gradient(top, #d7d7e2 24%, #cacad9 53%);
+    background: linear-gradient(to bottom, #d7d7e2 24%, #cacad9 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d7e2', endColorstr='#cacad9',GradientType=0 );
+    display: block;
+    margin: auto;
+    width: 940px;
+}
+/* Columna de contenido principal (alineada al tope con 0) */
+section#contenido {
+    display: block;
+    float: left;
+    margin-top: 0 !important;
+    width: 700px;
+}
+.info {
+    background: #FFF;
+    border: 1px solid #A8A8B7;
+    margin-bottom: 10px;
+    float: left;
+    display: block;
+    padding: 0;
+    width: 700px;
+}
+/* Aside / Últimas Categorías (Forzado al tope absoluto a la par del contenido) */
+aside {
+    background: #d7d7e2;
+    background: -moz-linear-gradient(top, #d7d7e2 24%, #cacad9 53%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(24%, #d7d7e2), color-stop(53%, #cacad9));
+    background: -webkit-linear-gradient(top, #d7d7e2 24%, #cacad9 53%);
+    background: -o-linear-gradient(top, #d7d7e2 24%, #cacad9 53%);
+    background: -ms-linear-gradient(top, #d7d7e2 24%, #cacad9 53%);
+    background: linear-gradient(to bottom, #d7d7e2 24%, #cacad9 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d7e2', endColorstr='#cacad9',GradientType=0 );
+    display: block;
+    float: right;
+    margin-top: 0 !important; /* Elimina cualquier espacio superior que lo baje */
+    margin-bottom: 10px;
+    width: 230px;
+}
+/* Tipografías y Encabezados */
+h2 {
+    font-family: Arial;
+    font-size: 28px;
+    color: #858594;
+    padding: 10px;
+}
+h3 {
+    background: #FFA30D;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 10px;
+}
+h4 {
+    background: #3B3B3B;
+    color: #FFF;
+    vertical-align: middle;
+    padding-top: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    height: 35px;
+    text-align: center;
+}
+h5 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+h6 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    color: #32323F;
+}
+p {
+    color: #31313F;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.info p {
+    display: block;
+    width: 460px;
+    float: right;
+    color: #31313F;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 10px;
+}
+.info img {
+    display: block;
+    float: left;
+    margin: 10px;
+}
+.comoempresa {
+    width: 700px;
+    display: block;
+    float: left;
+}
+#limpiar {
+    clear: both;
+}
+/* Pie de Página */
+section#inferior {
+    background: #3B3B3B;
+}
+footer {
+    display: block;
+    margin: auto;
+    height: 130px;
+    width: 940px;
+}
+#infocontacto {
+    color: #FFF;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-top: 35px;
+    text-align: left;
+    width: 300px;
+}
+#powered {
+    color: #FFF;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    float: right;
+    margin-top: 35px;
+    text-align: right;
+    width: 300px;
+}
+#powered a {
+    text-decoration: none;
+    color: #9CF;
+}
+/* Títulos de las categorías */
+#contenedor h3 {
+    color: #222;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2e7d32;
+    padding-bottom: 5px;
+    clear: both;
+}
+/* Contenedor principal del catálogo */
+.tienda-grid {
+    width: 700px;
+    float: left;
+    margin-bottom: 15px;
+}
+/* Tarjeta individual de vinilo */
+.tarjeta-producto {
+    width: 210px;
+    float: left;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(241, 239, 239);
+    text-align: center;
+    box-sizing: border-box;
+}
+.tarjeta-producto img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.tarjeta-producto h4 {
+    font-size: 14px;
+    margin: 8px 0;
+    color: #361313;
+}
+.precio {
+    background-color: #2e7d32;
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 13px;
+    display: inline-block;
+}
+/* Formulario de contacto */
+.info form {
+    margin-top: 15px;
+}
+.info form label {
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+.info form input[type="text"],
+.info form input[type="email"],
+.info form input[type="number"],
+.info form select,
+.info form textarea {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.info form button[type="submit"] {
+    background-color: #2e7d32;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
